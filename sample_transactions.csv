@@ -1,0 +1,11 @@
+Date,Description,Category,Amount,Type
+2026-09-01,Salary Income,Income,5000.00,Credit
+2026-09-02,Apartment Rent,Housing,1500.00,Debit
+2026-09-03,Whole Foods Market,Groceries,142.50,Debit
+2026-09-05,Netflix Subscription,Subscriptions,17.99,Debit
+2026-09-07,Spotify Premium,Subscriptions,10.99,Debit
+2026-09-10,Tech Gadgets Store,Shopping,450.00,Debit
+2026-09-12,Electric Utility Bill,Utilities,120.00,Debit
+2026-09-14,Uber Rides,Transport,45.20,Debit
+2026-09-15,Gym Membership,Fitness,50.00,Debit
+2026-09-18,Restaurant Dinner,Dining,85.00,Debit
