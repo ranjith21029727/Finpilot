@@ -260,7 +260,6 @@ with tab2:
         st.caption(f"Estimated Remaining Liability: ₹{total_remaining_liability:,.2f}")
 
 with tab3:
-
     st.subheader("Multi-Agent Intelligence Engine & Natural Language Copilot")
     
     if api_key:
@@ -282,7 +281,7 @@ with tab3:
                 """
                 response = client.chat.completions.create(
                     messages=[{"role": "user", "content": prompt}],
-                    model="llama-3.1-8b-instant"
+                    model="openai/gpt-oss-120b"
                 )
                 st.markdown(response.choices[0].message.content)
                 
@@ -302,7 +301,7 @@ with tab3:
             """
             qa_res = client.chat.completions.create(
                 messages=[{"role": "user", "content": qa_prompt}],
-                model="llama-3.1-8b-instant"
+                model="openai/gpt-oss-120b"
             )
             st.info(qa_res.choices[0].message.content)
     else:
