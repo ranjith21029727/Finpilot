@@ -281,7 +281,7 @@ with tab3:
                 """
                 response = client.chat.completions.create(
                     messages=[{"role": "user", "content": prompt}],
-                    model="llama3-70b-8192"
+                    model="openai/gpt-oss-120b"
                 )
                 st.markdown(response.choices[0].message.content)
                 
