@@ -281,7 +281,7 @@ with tab3:
                 """
                 response = client.chat.completions.create(
                     messages=[{"role": "user", "content": prompt}],
-                    model="llama-3.3-70b-versatile"
+                    model="llama-3.1-70b-versatile"
                 )
                 st.markdown(response.choices[0].message.content)
                 
